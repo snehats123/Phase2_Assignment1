@@ -1,0 +1,77 @@
+
+/********************************** COMMON LAYOUT**************************/
+* {
+    padding:0;
+    margin:0;
+
+}
+body {
+    /* background: url("/images/bg1.jpg"); */
+    background-attachment: fixed;  
+    background-size: cover;
+    /* opacity: 0.5; */
+  }
+header {
+      background-color:white;
+  }
+img{
+    margin-left:35px;
+
+}
+.menu{
+    float: right;
+    margin-top:44px;
+    margin-right:55px
+}
+.menu a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:steelblue;
+    border:1px solid steelblue;
+    padding:8px;
+    margin-right: 8px;
+}
+.menu a:hover{
+    color:white;
+    background-color:steelblue;
+    transition:0.5s;
+}
+/***************************************END OF COMMON LAYOUT************************/
+td{
+    padding:5px;
+}
+.resize{
+    display:block;
+    max-width: 200px;
+    max-height:95px;
+    height:auto;
+    width:auto;
+    border:5px solid #555;
+    border-radius: 10px;
+    border-style: groove;
+    opacity:2;
+}
+.back{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 2.5;
+    float:left;
+    border-radius: 25px;
+    background: #fefeff;
+    padding: 20px;
+    width: 1280px;
+    height: 850px;
+    opacity: 0.8;
+}
+.back a{
+    text-decoration: none;
+    color: darkcyan;
+}
+.back a:hover{
+    color:white;
+    background-color:steelblue;
+    transition:0.5s;
+    text-decoration: none;
+}
